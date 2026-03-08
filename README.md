@@ -2,8 +2,7 @@
 
 ## Overview
 
-**Image Classifier** is a simple web application that allows users to upload an image and have a pretrained AI model classify its contents.  
-The application uses a convolutional neural network to analyze images and return predicted labels for objects within the image.
+**Image Classifier** is a simple web application that allows users to upload an image and have a pretrained AI model classify its contents. The application uses a convolutional neural network to analyze images and return predicted labels for objects within the image.
 
 This project demonstrates how deep learning models can be integrated into an interactive web interface using Python and Streamlit.
 
@@ -56,21 +55,7 @@ Updated version: Test-Time Augmentation was included to improve prediction accur
 
 ### Simplified Flow
 
-Image Upload
-      ↓
-Resize to 224×224
-      ↓
-Convert to NumPy Array
-      ↓
-Add Batch Dimension (np.expand_dims)
-      ↓
-Normalize Pixels (preprocess_input)
-      ↓
-MobileNetV2 Prediction
-      ↓
-Decode Predictions
-      ↓
-Human-readable labels
+Image Upload → Resize to 224×224 → Convert to NumPy Array → Add Batch Dimension (np.expand_dims) → Normalize Pixels (preprocess_input) → MobileNetV2 Prediction → Decode Predictions → Human-readable labels
 
 ---
 
