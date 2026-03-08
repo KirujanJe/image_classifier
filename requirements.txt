@@ -1,5 +1,6 @@
+uv.lock
 streamlit
 tensorflow
 numpy
 pillow
-opencv-python-headless
+opencv-python
