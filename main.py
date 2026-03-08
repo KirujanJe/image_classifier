@@ -100,7 +100,7 @@ def main():
 
     st.write('Tech: Python, UV, Streamlit, Tensorflow, Numpy, OpenCV, & PIL. ')
     st.write('ML Algorithm: MobileNetV2, a light weight CNN is used to classify the images. From Tensorflow Keras API.')
-    st.write('Author:Kirujan Jegatheeswaran')
+    st.write('Author: Kirujan Jegatheeswaran')
     st.write('_Updated Version (03/2026)_: Includes Button for Test Time Augmentation with 8 image variations 🎯.') 
 
     st.markdown("""---""")
