@@ -4,7 +4,7 @@
 
 **Image Classifier** is a simple web application that allows users to upload an image and have a pretrained AI model classify its contents. The application uses a convolutional neural network to analyze images and return predicted labels for objects within the image.
 
-This project demonstrates how deep learning models can be integrated into an interactive web interface using Python and Streamlit.
+This project demonstrates how deep learning models can be integrated into an interactive web interface using Python via Streamlit.
 
 **Author:** Kirujan Jegatheeswaran
 
